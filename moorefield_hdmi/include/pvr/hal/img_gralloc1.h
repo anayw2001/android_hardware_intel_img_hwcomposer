@@ -24,6 +24,7 @@
 #ifndef IMG_GRALLOC1_H
 #define IMG_GRALLOC1_H
 
+#include <errno.h>
 #include <hardware/gralloc1.h>
 
 #include <stdlib.h>
@@ -159,6 +160,7 @@ static inline int gralloc1_device_alloc_img
 			break;
 		case GRALLOC1_ERROR_NO_RESOURCES:
 			err = -EAGAIN;
+                        [[fallthrough]];
 		default:
 			goto err_destroy_descriptor;
 	}

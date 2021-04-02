@@ -17,6 +17,7 @@
 #define DATABUFFER_H__
 
 #include <hardware/hwcomposer.h>
+#include <string.h>
 
 namespace android {
 namespace intel {
