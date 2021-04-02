@@ -1,0 +1,9 @@
+cc_library_headers {
+    name: "intel_hwcomposer_headers",
+    export_include_dirs: [
+        "merrifield/include",
+        "merrifield/include/pvr/hal",
+        "moorefield_hdmi/include",
+        "moorefield_hdmi/include/pvr/hal",
+    ],
+}

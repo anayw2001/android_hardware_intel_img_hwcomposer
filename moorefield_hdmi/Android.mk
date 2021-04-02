@@ -106,13 +106,6 @@ ifeq ($(TARGET_SUPPORT_HDMI_PRIMARY),true)
    LOCAL_CFLAGS += -DINTEL_SUPPORT_HDMI_PRIMARY
 endif
 
-LOCAL_COPY_HEADERS := \
- include/pvr/hal/img_gralloc.h \
- include/pvr/hal/img_gralloc1.h \
- include/pvr/hal/img_gralloc_common_public.h \
- include/pvr/hal/hal_public.h
-LOCAL_COPY_HEADERS_TO := pvr/hal
-
 include $(BUILD_SHARED_LIBRARY)
 
 endif
