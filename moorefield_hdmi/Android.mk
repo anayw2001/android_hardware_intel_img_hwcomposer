@@ -30,7 +30,7 @@ LOCAL_CFLAGS := -Werror
 
 LOCAL_SHARED_LIBRARIES := liblog libcutils libdrm \
                           libwsbm libutils libhardware \
-                          libva libva-tpi libva-android libsync
+                          libva libva-tpi libva-android libsync libion
 
 LOCAL_HEADER_LIBRARIES := libsystem_headers
 
