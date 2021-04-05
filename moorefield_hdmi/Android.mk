@@ -94,7 +94,6 @@ LOCAL_C_INCLUDES := \
     $(LOCAL_PATH)/include \
     $(LOCAL_PATH)/include/pvr/hal \
     $(TARGET_OUT_HEADERS)/libdrm \
-    $(TARGET_OUT_HEADERS)/libwsbm/wsbm \
     $(TARGET_OUT_HEADERS)/libttm \
     frameworks/native/include/media/openmax
 

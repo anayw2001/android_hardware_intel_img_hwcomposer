@@ -98,7 +98,6 @@ LOCAL_C_INCLUDES := $(addprefix $(LOCAL_PATH)/../../../, $(SGX_INCLUDES)) \
     $(TARGET_OUT_HEADERS)/drm \
     $(TARGET_OUT_HEADERS)/libdrm \
     $(TARGET_OUT_HEADERS)/libdrm/shared-core \
-    $(TARGET_OUT_HEADERS)/libwsbm/wsbm \
     $(TARGET_OUT_HEADERS)/libttm \
     $(TARGET_OUT_HEADERS)/libva
 
