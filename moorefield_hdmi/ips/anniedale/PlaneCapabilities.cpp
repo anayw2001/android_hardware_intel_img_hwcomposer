@@ -19,7 +19,7 @@
 #include <PlaneCapabilities.h>
 #include <ips/common/OverlayHardware.h>
 #include <common/base/HwcLayer.h>
-#include <khronos/openmax/OMX_IntelVideoExt.h>
+#include <OMX_IntelVideoExt.h>
 #include <hal_public.h>
 
 #define SPRITE_PLANE_MAX_STRIDE_TILED      16384

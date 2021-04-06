@@ -18,7 +18,7 @@
 #include <DisplayPlane.h>
 #include <hal_public.h>
 #include <DisplayQuery.h>
-#include <khronos/openmax/OMX_IntelVideoExt.h>
+#include <OMX_IntelVideoExt.h>
 #include <Hwcomposer.h>
 
 

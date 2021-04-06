@@ -23,7 +23,7 @@
 #include <ips/common/TTMBufferMapper.h>
 #include <ips/common/GrallocSubBuffer.h>
 #include <DisplayQuery.h>
-#include <khronos/openmax/OMX_IntelVideoExt.h>
+#include <OMX_IntelVideoExt.h>
 #include <hal_public.h>
 
 namespace android {

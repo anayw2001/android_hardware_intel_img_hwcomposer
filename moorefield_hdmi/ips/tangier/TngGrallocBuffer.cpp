@@ -15,7 +15,7 @@
 */
 #include <common/utils/HwcTrace.h>
 #include <ips/tangier/TngGrallocBuffer.h>
-#include <khronos/openmax/OMX_IntelVideoExt.h>
+#include <OMX_IntelVideoExt.h>
 
 namespace android {
 namespace intel {

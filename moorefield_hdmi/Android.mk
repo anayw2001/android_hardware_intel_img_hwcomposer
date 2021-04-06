@@ -32,7 +32,7 @@ LOCAL_SHARED_LIBRARIES := liblog libcutils libdrm \
                           libwsbm libutils libhardware \
                           libva libva-tpi libva-android libsync libion
 
-LOCAL_HEADER_LIBRARIES := libsystem_headers
+LOCAL_HEADER_LIBRARIES := khronos_openmax_headers libsystem_headers
 
 LOCAL_SRC_FILES := \
     common/base/Drm.cpp \
