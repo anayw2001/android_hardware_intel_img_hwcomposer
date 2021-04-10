@@ -55,7 +55,7 @@ public:
     enum {
         DEVICE_PRIMARY = HWC_DISPLAY_PRIMARY,
         DEVICE_EXTERNAL = HWC_DISPLAY_EXTERNAL,
-        DEVICE_VIRTUAL = HWC_DISPLAY_VIRTUAL,
+        DEVICE_VIRTUAL = 2,
         DEVICE_COUNT,
     };
     enum {
